@@ -77,7 +77,7 @@ void loop ()
     }
    }
    
-  /* for(int i=1; i<=10; i++) {
+   for(int i=1; i<=10; i++) {
         String phdata = Serial.readStringUntil(':');
         Serial.println(phdata);
         if(phdata != "")
@@ -100,7 +100,7 @@ void loop ()
               Serial.println("****BASE*****");  
             }
         }
-    }*/
+    }
     Blynk.run();
  //delay(1000);
 }  
